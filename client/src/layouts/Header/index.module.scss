@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 0px 60px;
+    font-family: "Roboto Condensed", serif;
+    
+    h1{
+        color: blue;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        li{
+            font-size: 1.1rem;
+        }
+    }
+    .headIcons{
+        display: flex;
+        gap: 20px;
+        font-size: 1.4rem;
+        cursor: pointer;
+        
+        .basket{
+            color: orange;
+            transition: 0.4s;
+            &:hover{
+                color: rgb(176, 100, 13);
+            }
+        }
+        .search{
+            color: rgb(0, 200, 255);
+            transition: 0.4s;
+            &:hover{
+                color: rgb(13, 112, 139);
+            }
+        }
+    }
+}

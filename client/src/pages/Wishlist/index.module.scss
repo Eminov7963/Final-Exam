@@ -1,0 +1,59 @@
+.wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  .cards {
+    background-color: rgb(206, 205, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 560px;
+    width: 380px;
+    border: 1px solid white;
+    img {
+      width: 80%;
+      height: 60%;
+      transition: 0.4s;
+      &:hover {
+        transform: scale(1.07);
+      }
+    }
+    .prices {
+      display: flex;
+      gap: 10px;
+      padding: 5px 0px;
+      color: rgb(255, 251, 15);
+      span {
+        font-size: 1.4rem;
+      }
+      .oldprice {
+        text-decoration: line-through;
+      }
+    }
+    .actions {
+      margin: 10px 0px;
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        background-color: transparent;
+        border: none;
+      }
+      .heart {
+        color: red;
+        font-size: 1.4rem;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.09);
+        }
+      }
+      
+    }
+  }
+}

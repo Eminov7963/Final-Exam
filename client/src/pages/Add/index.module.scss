@@ -1,0 +1,49 @@
+.mainAdding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Roboto Condensed", serif;
+  .table {
+    margin-top: 60px;
+    table {
+      tbody {
+        tr {
+          flex-wrap: wrap;
+          td {
+            img {
+              width: 200px;
+              height: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    Form {
+      width: 60%;
+      .adding {
+        width: 100%;
+        input {
+          width: 100%;
+        }
+      }
+      .addParent {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .submit {
+          width: 30%;
+        }
+      }
+    }
+  }
+}

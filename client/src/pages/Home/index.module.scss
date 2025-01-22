@@ -1,0 +1,227 @@
+main {
+  background-color: rgb(238, 236, 236);
+
+  font-family: "Roboto Condensed", serif;
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    .boxs1{
+        position: relative;
+        width: 30%;
+        height: 100%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            transition: 0.4s;
+            
+            &:hover{
+                transform: scale(1.2);
+                background-color: rgb(89, 180, 246) ;
+            }
+        }
+        button{
+            position: absolute;
+            top: 45%;
+            left: 37%;
+            padding: 10px 30px;
+            background-color: rgb(0, 149, 255);
+            color: white;
+            border: 1px solid rgb(0, 149, 255);
+            cursor: pointer;
+            
+
+        }
+    }
+    .boxs2{
+        position: relative;
+        width: 30%;
+        height: 100%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            transition: 0.4s;
+            
+            &:hover{
+                transform: scale(1.2);
+                background-color: rgb(89, 180, 246) ;
+            }
+        }
+        button{
+            position: absolute;
+            top: 45%;
+            left: 37%;
+            padding: 10px 30px;
+            background-color: rgb(0, 149, 255);
+            color: white;
+            border: 1px solid rgb(0, 149, 255);
+            cursor: pointer;
+            
+
+        }
+    }
+    .boxs3{
+        position: relative;
+        width: 30%;
+        height: 100%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            
+            transition: 0.4s;
+            
+            &:hover{
+                transform: scale(1.2);
+                background-color: rgb(89, 180, 246) ;
+            }
+        }
+        button{
+            position: absolute;
+            top: 45%;
+            left: 37%;
+            padding: 10px 30px;
+            background-color: rgb(0, 149, 255);
+            color: white;
+            border: 1px solid rgb(0, 149, 255);
+            cursor: pointer;
+            
+
+        }
+    }
+  }
+  .main {
+    height: 90vh;
+    background-image: url("https://preview.colorlib.com/theme/winter/img/banner_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+      width: 60%;
+      height: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      .text{
+        h4{
+            font-size: 1.4rem;
+        }
+        h1{
+            font-size: 4rem;
+            width: 450px;
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px 30px;
+            background-color: rgb(0, 149, 255);
+            color: white;
+            border: 1px solid rgb(0, 149, 255);
+            cursor: pointer;
+            transition: 0.4s;
+            &:hover{
+                transform: scale(1.09);
+                background-color: rgb(89, 180, 246) ;
+            }
+        }
+      }
+    }
+  }
+  .product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .search {
+      margin: 10px 0px;
+      font-size: 1.5rem;
+      display: flex;
+      gap: 15px;
+      input {
+        padding: 10px 15px;
+      }
+    }
+    .contain {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+
+      .cards {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        height: 560px;
+        width: 380px;
+        border: 1px solid white;
+        img {
+          width: 80%;
+          height: 60%;
+          transition: 0.4s;
+          &:hover {
+            transform: scale(1.07);
+          }
+        }
+        .prices {
+          display: flex;
+          gap: 10px;
+          padding: 5px 0px;
+          span {
+            font-size: 1.2rem;
+          }
+          .oldprice {
+            text-decoration: line-through;
+          }
+        }
+        .actions {
+          margin: 10px 0px;
+          width: 30%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          button {
+            background-color: transparent;
+            border: none;
+          }
+          .info {
+            color: rgb(0, 132, 255);
+            font-size: 1.4rem;
+            transition: 0.4s;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.09);
+            }
+          }
+          .heart {
+            color: red;
+            font-size: 1.4rem;
+            transition: 0.4s;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.09);
+            }
+          }
+          .basket {
+            color: orange;
+            font-size: 1.4rem;
+            transition: 0.4s;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.09);
+            }
+          }
+        }
+      }
+    }
+  }
+}
